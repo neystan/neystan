@@ -2,7 +2,16 @@
 
 自动生成 GitHub Contribution Snake 动画。
 
-生成后的文件位于 `output` 分支：
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/neystan/Contribution_Snake/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/neystan/Contribution_Snake/output/github-snake.svg">
+  <img alt="GitHub contribution snake"
+       src="https://raw.githubusercontent.com/neystan/Contribution_Snake/output/github-snake.svg">
+</picture>
+
+生成后的文件位于 `output` 分支。将下面代码复制到你的个人主页 README，即可在个人主页展示：
 
 ```markdown
 <picture>
